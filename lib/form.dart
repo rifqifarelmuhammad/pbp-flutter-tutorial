@@ -238,7 +238,28 @@ class _MyFormPageState extends State<MyFormPage> {
                                   height: 10,
                                 ),
                                 Text(
+                                  "Jenjang: ${jenjangSarjana ? 'Sarjana' : jenjangDiploma ? 'Diploma' : jenjangMagister ? 'Magister' : 'Doktor'}",
+                                  style: TextStyle(color: Colors.blue),
+                                ),
+                                const SizedBox(
+                                  height: 10,
+                                ),
+                                Text(
                                   "Umur: $umur",
+                                  style: TextStyle(color: Colors.blue),
+                                ),
+                                const SizedBox(
+                                  height: 10,
+                                ),
+                                Text(
+                                  "Kelas PBP: $kelasPBP",
+                                  style: TextStyle(color: Colors.blue),
+                                ),
+                                const SizedBox(
+                                  height: 10,
+                                ),
+                                Text(
+                                  "Practice mode: $_nilaiSwitch",
                                   style: TextStyle(color: Colors.blue),
                                 ),
                               ],
